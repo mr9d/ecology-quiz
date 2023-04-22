@@ -121,3 +121,72 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* ===========================================
+        Cтраница ответа
+   =========================================== */
+
+.answer {
+  box-sizing: border-box;
+  min-height: 460px;
+  background: url("img/03.png");
+  background-repeat: no-repeat;
+  background-size: 460px 460px;
+  background-position: right;
+  margin-right: -10px;
+  padding-right: 460px;
+  padding-top: 50px;
+}
+
+.answer__title {
+  font-family: "Jost";
+  font-size: 55px;
+  font-weight: 700;
+  margin: 0 0 45px;
+  text-transform: uppercase;
+}
+
+.answer__content {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
+}
+
+.answer__paragraph {
+  margin: 10px 0;
+}
+
+.answer__buttons {
+  flex-grow: 1;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+/* ===========================================
+        Cтраница результата
+   =========================================== */
+
+.result {
+  max-width: 775px;
+  margin: 0 auto;
+}
+
+.result__title {
+  font-family: "Jost";
+  font-size: 96px;
+  margin: 0 0 35px;
+}
+
+.result__content {
+  font-family: "Jost";
+  font-size: 36px;
+}
+
+.result__buttons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
