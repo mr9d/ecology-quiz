@@ -46,17 +46,17 @@ body {
 }
 
 .button {
-    background: #000000;
-    border: 0;
-    border-radius: 15px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 16px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    padding: 15px 42px;
+  background: #000000;
+  border: 0;
+  border-radius: 15px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 15px 42px;
 }
 
 /* ===========================================
@@ -80,18 +80,44 @@ body {
 }
 
 .intro__content {
-    box-sizing: border-box;
-    min-height: 460px;
-    background: url('img/07.png');
-    background-repeat: no-repeat;
-    background-size: 460px 460px;
-    background-position: right;
-    margin-right: -10px;
-    padding-right: 460px;
-    padding-top: 50px;
+  box-sizing: border-box;
+  min-height: 460px;
+  background: url("img/07.png");
+  background-repeat: no-repeat;
+  background-size: 460px 460px;
+  background-position: right;
+  margin-right: -10px;
+  padding-right: 460px;
+  padding-top: 50px;
 }
 
 .intro__buttons {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ===========================================
+        Cтраница вопроса
+   =========================================== */
+
+.question {
+  max-width: 775px;
+  margin: 0 auto;
+}
+
+.question__title {
+  font-family: "Jost";
+  font-size: 40px;
+  margin: 0 0 55px;
+}
+
+.question__content {
+  font-family: "Jost";
+  font-size: 36px;
+}
+
+.question__buttons {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-evenly;
 }

@@ -1,5 +1,6 @@
 const dynamicContentElement = document.querySelector('.dynamic');
 const introArticleTemplate = document.querySelector('#intro-article-template').content;
+const questionArticleTemplate = document.querySelector('#question-article-template').content;
 
 const switchDynamicContent = (template) => {
     const oldContent = dynamicContentElement.firstChild;
@@ -11,7 +12,7 @@ const switchDynamicContent = (template) => {
 };
 
 const init = () => {
-    switchDynamicContent(introArticleTemplate);
+    switchDynamicContent(questionArticleTemplate);
 }
 
 init();
