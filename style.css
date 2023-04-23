@@ -185,6 +185,10 @@ body {
   font-size: 36px;
 }
 
+.result__paragraph {
+  display: none;
+}
+
 .result__buttons {
   margin-top: 100px;
   display: flex;

@@ -35,7 +35,7 @@
                     Сможете прожить один день так, чтобы не навредить планете слишком сильно?
                 </p>
                 <section class="intro__buttons">
-                    <button class="button intro__start-test">Пройти тест</button>
+                    <button class="button intro__start">Пройти тест</button>
                 </section>
             <main>
         </article>
@@ -47,12 +47,12 @@
                 <h2 class="question__title">3/8</h2>
             </header>
             <main class="question__content">
-                <p class="question__paragraph">Теперь нужно помыть посуду так, чтобы потратить как можно меньше воды.</p>
+                <!-- <p class="question__paragraph">Теперь нужно помыть посуду так, чтобы потратить как можно меньше воды.</p>
                 <p class="question__paragraph">Как будете мыть — в посудомоечной машине или руками?</p>
                 <section class="question__buttons">
                     <button class="button question__answer">Руками</button>
                     <button class="button question__answer">В машине</button>
-                </section>
+                </section> -->
             </main>
         </article>
     </template>
@@ -63,14 +63,14 @@
                 <h2 class="answer__title">В машине</h2>
             </header>
             <main class="answer__content">
-                <p class="answer__paragraph">
+                <!-- <p class="answer__paragraph">
                     Вопреки популярным мифам, мыть посуду в посудомоечной машине экологичнее, чем руками.
                 </p>
                 <p class="answer__paragraph">
                     Семье из трех человек для мытья посуды потребуется от 150 литров воды в день. 
                     На точно такое же количество посуды 
                     машина потратит не более 20 литров воды.
-                </p>
+                </p> -->
                 <section class="answer__buttons">
                     <button class="button answer__continue">Далее</button>
                 </section>
@@ -84,7 +84,20 @@
                 <h2 class="result__title">8 баллов</h2>
             </header>
             <main class="result__content">
-                <p class="result__paragraph">Грета Тунберг была бы вами довольна!</p>
+                <p class="result__paragraph" data-score-min="0" data-score-max="2">
+                    Кажется, вы пока не в курсе о чем тут речь. 
+                    Тогда скорее читайте <a href="#">нашу подборку об экопроблемах 
+                    и методах их решения</a>.
+                </p>
+                <p class="result__paragraph" data-score-min="3" data-score-max="4">
+                    Не сдавайтесь! У вас уже есть полезные экопривычки, вам просто не хватает знаний.
+                </p>
+                <p class="result__paragraph" data-score-min="5" data-score-max="6">
+                    А вы в теме! Кажется, у человечества еще есть шансы.
+                </p>
+                <p class="result__paragraph" data-score-min="7" data-score-max="8">
+                    Грета Тунберг была бы вами довольна!
+                </p>
                 <section class="result__buttons">
                     <button class="button result__share">Поделиться результатом</button>
                 </section>
